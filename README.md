@@ -19,8 +19,9 @@ Table(data=data,
       save_file_path="test{}.png".format(i),
       line_split_style=False,
       last_line_color_style=False,
-      fill_row_color_index_list=[1, 3, 4, 5]).draw()
+      fill_row_color_index_list=[1, 3, 5]).draw()
 ```
+![alt "pic"](test0.png)
 
 # 安装字体
 **仅提供Linux环境下的字体安装**  

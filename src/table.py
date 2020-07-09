@@ -237,5 +237,5 @@ if __name__ == '__main__':
               save_file_path="test{}.png".format(i),
               line_split_style=False,
               last_line_color_style=False,
-              fill_row_color_index_list=[1, 3, 4],
-              debug_mode=True).draw()
+              fill_row_color_index_list=[1,3,5],
+              debug_mode=False).draw()
