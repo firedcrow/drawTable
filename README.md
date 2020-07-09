@@ -1,5 +1,5 @@
 # 用途
-脱离Excel，实现纯代码绘制表格，提供较多参数用于自定义图标格式  
+脱离Excel，实现纯代码绘制表格，提供较多参数用于自定义图表格式  
 
 # 使用例
 ```python
@@ -15,11 +15,11 @@ columns = ["a", "b", "c", "d", "e"]
 
 
 Table(data=data,
-        columns=columns,
-        save_file_path="test{}.png".format(i),
-        line_split_style=False,
-        last_line_color_style=False,
-        fill_row_color_index_list=[1, 3, 4, 5]).draw()
+      columns=columns,
+      save_file_path="test{}.png".format(i),
+      line_split_style=False,
+      last_line_color_style=False,
+      fill_row_color_index_list=[1, 3, 4, 5]).draw()
 ```
 
 # 安装字体
