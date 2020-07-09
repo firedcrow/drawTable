@@ -13,17 +13,17 @@ data = [
 ]
 columns = ["a", "b", "c", "d", "e"]
 
-for i in range(1):
-    Table(data=data,
-            columns=columns,
-            save_file_path="test{}.png".format(i),
-            line_split_style=False,
-            last_line_color_style=False,
-            fill_row_color_index_list=[1, 3, 4, 5]).draw()
+
+Table(data=data,
+        columns=columns,
+        save_file_path="test{}.png".format(i),
+        line_split_style=False,
+        last_line_color_style=False,
+        fill_row_color_index_list=[1, 3, 4, 5]).draw()
 ```
 
 # 安装字体
-**仅提供Linux环境下的字体安装**
+**仅提供Linux环境下的字体安装**  
 若缺少字体文件，在图表中含有中文时会渲染不出来  
 运行如下代码即可安装字体  
 ```bash
